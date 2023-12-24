@@ -1,0 +1,19 @@
+{
+  "name": "jdoodle-assignment",
+  "version": "1.0.0",
+  "description": "Playwright assignment with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "chromiumtest": "npx playwright test --project=chromium"
+  },
+  "author": "Naveen Kumar",
+  "license": "ICS",
+  "dependencies": {
+    "@playwright/test": "^1.40.1",
+    "npm": "^9.6.4",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5"
+  }
+}
